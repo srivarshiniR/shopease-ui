@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { setAuthToken, clearAuthToken } from '../utils/auth';
 
-const API_URL = 'https://shopease-api-w4vt.onrender.com/api';
+const API_URL = 'https://shopease-api-w4vt.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
